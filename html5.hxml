@@ -1,0 +1,10 @@
+-cp src
+-main Main
+
+-lib haxeui-core
+-lib haxeui-html5
+-lib coconut.ui
+-lib coconut.data
+-lib coconut.haxeui
+
+-js build/html5/Main.js
