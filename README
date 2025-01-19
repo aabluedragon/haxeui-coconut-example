@@ -1,0 +1,15 @@
+Tested with Haxe v4.3.6 on Ubuntu Linux x64.
+
+Prepare your environment (after preparing for hxwidgets)
+-----------------
+haxelib git coconut.haxeui https://github.com/MVCoconut/coconut.haxeui.git
+haxelib install coconut.ui
+haxelib install coconut.data
+
+to build:
+-----------------
+make
+
+to build and run:
+-----------------
+make run
