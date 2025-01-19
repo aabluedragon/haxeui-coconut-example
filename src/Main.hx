@@ -39,7 +39,16 @@ class MyView extends View {
 			<Label text="Clicked $click times" />
 			<ComplexButton title="Complex Button $counter" />
 			<Button text="Show Dialog" onClick=${showDialog} />
-			<AnotherView />
+			
+			<switch ${counter % 2 == 0}>
+				<case ${true}>
+					<Button text="Even" />
+				<case ${false}>
+					<Button text="Odd" />
+				<case ${_}>
+					<Button text="Should not happen" />
+			</switch>
+			
 		</VBox>
 	';
 
